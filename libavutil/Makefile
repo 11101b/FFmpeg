@@ -177,10 +177,7 @@ OBJS = adler32.o                                                        \
        tx_int32.o                                                       \
        video_enc_params.o                                               \
        film_grain_params.o                                              \
-       dns_cache.o                                                      \
-       application.o                                                    \
-       hlsencryptinfo.o                                                 \
-       hlsdecryptor.o
+     
 
 
 OBJS-$(CONFIG_CUDA)                     += hwcontext_cuda.o
